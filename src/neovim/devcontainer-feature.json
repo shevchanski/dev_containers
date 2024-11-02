@@ -1,0 +1,22 @@
+{
+  "id": "nvim",
+  "name": "Neovim",
+  "version": "1.0.0",
+  "description": "A feature to install Neovim into devcontainer",
+  "dependsOn": {
+    "ghcr.io/devcontainers/features/common-utils": {},
+    "ghcr.io/devcontainers/features/git": {}
+  },
+  "options": {
+    "version": {
+      "type": "string",
+      "description": "Defines version of neovim which will be installed",
+      "enum": ["stable"],
+      "default": "stable"
+    }
+  },
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/common-utils",
+    "ghcr.io/devcontainers/features/git"
+  ]
+}
