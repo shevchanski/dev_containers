@@ -11,8 +11,7 @@ jobs:
     strategy:
       matrix:
         features:
-          - color
-          - hello
+          - neovim
         baseImage:
           - debian:latest
           - ubuntu:latest
@@ -32,8 +31,7 @@ jobs:
     strategy:
       matrix:
         features:
-          - color
-          - hello
+          - neovim
     steps:
       - uses: actions/checkout@v4
 
