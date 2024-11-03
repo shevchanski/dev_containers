@@ -1,3 +1,10 @@
 {
+  "nvim_and_git": {
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+      "neovim": {
+        "version": "stable"
+      }
     }
+  }
 }
