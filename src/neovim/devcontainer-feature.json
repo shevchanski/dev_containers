@@ -1,5 +1,5 @@
 {
-  "id": "nvim",
+  "id": "neovim",
   "name": "Neovim",
   "version": "1.0.0",
   "description": "A feature to install Neovim into devcontainer",
