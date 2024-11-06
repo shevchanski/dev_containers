@@ -1,5 +1,5 @@
 
-# Neovim (nvim)
+# Neovim (neovim)
 
 A feature to install Neovim into devcontainer
 
@@ -7,7 +7,7 @@ A feature to install Neovim into devcontainer
 
 ```json
 "features": {
-    "ghcr.io/shevchanski/dev_containers/nvim:1": {}
+    "ghcr.io/shevchanski/dev_containers/neovim:1": {}
 }
 ```
 
@@ -21,4 +21,4 @@ A feature to install Neovim into devcontainer
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/shevchanski/dev_containers/blob/main/src/neovim/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
